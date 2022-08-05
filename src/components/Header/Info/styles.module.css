@@ -1,0 +1,29 @@
+.info {
+    display: flex;
+    justify-content: space-between;
+    margin: 16px 0px;
+    font-size: 12px;
+}
+
+.communication {
+    display: flex;
+    justify-content: space-between;
+    width: 350px;
+}
+
+.blog {
+    display: flex;
+    justify-content: space-between;
+    width: 155px;
+}
+  
+.contact_green {
+    font-family: 'Open Sans';
+    color: #6A983C;
+    text-decoration: none;
+}
+  
+.contact_black {
+    text-decoration: none;
+    color: #151515;
+}

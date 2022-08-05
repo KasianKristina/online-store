@@ -1,0 +1,14 @@
+.menu {
+    display: flex;
+    justify-content: space-between;
+    background: #F9F9F9;
+    height: 55px;
+    font-family: inherit;
+  }
+  
+  .minimenu {
+    background: #F9F9F9;
+    border: none;
+    outline: none;
+    font-family: 'Poppins';
+  }

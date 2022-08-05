@@ -1,0 +1,104 @@
+.line {
+    border-bottom: 1px solid #151515;
+    opacity: 0.05;
+}
+  
+.information {
+    font-family: 'Poppins', Arial, sans-serif;
+    display: flex;
+    justify-content: space-between;
+    padding: 40px 0px;
+}
+  
+.logo {
+    font-size: 30px;
+    font-weight: 900;
+}
+  
+form {
+    position: relative;
+    width: 500px;
+    background: #D1D1D1;
+    border: 1px solid #D1D1D1;
+    border-radius: 12px;
+  }
+
+.navigation > .nav {
+    flex: 1;
+}
+  
+  .select_product {
+    width: 170px;
+    height: 42px;
+    border-radius: 12px 0px 0px 12px;
+    border: 1px solid #D1D1D1;
+    outline: none;
+    padding-left: 16px;
+    font-weight: 700;
+    background: #6a983c70;
+    cursor: pointer;
+  }
+  
+  input {
+    width: 286px;
+    height: 42px;
+    padding-left: 10px;
+    background: #F9F9F9;
+    border: none;
+    outline: none;
+  }
+  
+  .button_search {
+    position: absolute; 
+    top: 0;
+    right: 0px;
+    width: 44px;
+    height: 42px;
+    border: none;
+    border-radius: 0 12px 12px 0;
+    cursor: pointer;
+    border: none;
+    background: #F9F9F9;
+  }
+  
+  .button_search::before {
+    content: "\f002";
+    font-family: FontAwesome;
+    font-size: 16px;
+    color: #6a983c70;
+  }
+  
+  .select_product{
+    font-family: inherit;
+  }
+    
+  .search_product{
+    font-family: inherit;
+  }
+    
+  .button_search{
+    font-family: inherit;
+  }
+  
+  .person, .basket {
+    width: 40px;
+    height: 40px;
+    border: none;
+    cursor: pointer;
+    border: none;
+    background: #ffffff;
+  }
+  
+  .person::before {
+    content: "\f007";
+    font-family: FontAwesome;
+    font-size: 16px;
+    color: #6a983c70;
+  }
+  
+  .basket::before {
+    content: "\f291";
+    font-family: FontAwesome;
+    font-size: 16px;
+    color: #6a983c70;
+  }
