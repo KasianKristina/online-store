@@ -1,10 +1,13 @@
 import styles from './styles.module.css'
 import banner_1 from '../../assets/banner_1.jpg'
 import banner_2 from '../../assets/banner_2.jpg'
+import {Product} from '../Product/Product'
 import classnames from 'classnames'
 
 export const Content = () => {
     return (
+    <div className={styles.main_page}>
+
         <div className={styles.content}>
 
             <div className={styles.menu}>
@@ -32,5 +35,25 @@ export const Content = () => {
             </div>
 
         </div>
+
+        <div className={styles.best_selling_products}>
+            <div className={styles.menu}>
+                <div className={styles.category_menu}>Best selling products</div>
+
+                <a href='#' className={styles.category}>Kitchen</a>
+                <a href='#' className={styles.category}>Meat and Fish</a>
+                <a href='#' className={styles.category}>Special nutrition</a>
+                <a href='#' className={styles.category}>Pharmacy</a>
+                <a href='#' className={styles.category}>Baby</a>
+                
+                <button className={styles.button_categories}>More products</button>
+            </div>
+
+            <Product />
+            <Product />
+            <Product />
+
+        </div>
+    </div>
     )
 }
