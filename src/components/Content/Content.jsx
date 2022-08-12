@@ -22,7 +22,6 @@ export const Content = () => {
             </div>
 
             <div className={styles.container}>
-            
             <div className={styles.banner_text}>Bowl with salmon and avocado</div>
             <img src={banner_1} width='412px' height='290px' className={classnames(styles.banner_1, styles.banners)}></img>
             <button className={styles.bunner_button}>Read recipe</button>

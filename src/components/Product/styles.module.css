@@ -2,7 +2,7 @@
     border-radius: 12px;
     border: 2px solid #6A983C;
     cursor: pointer;
-    margin: 0px 15px 0px 15px;
+    margin-left: 24px;
 }
 
 .photo {
@@ -52,13 +52,9 @@
 .like {
     width: 36px;
     height: 36px;
-    border-radius: 12px;
-    border: 2px solid #c41414;
-    background-color: #f21d1d;
-    color: #ffffff;
-    font-family: 'Poppins';
-    font-weight: 700;
-    font-size: 15px;
+    border: none;
+    background-color: #ffffff;
+    color: #f21d1d;
     margin-left: auto;
     cursor: pointer;
 }

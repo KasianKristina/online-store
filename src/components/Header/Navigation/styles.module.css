@@ -35,7 +35,7 @@ form {
     outline: none;
     padding-left: 16px;
     font-weight: 700;
-    background: #6a983c70;
+    background: #6A983C;
     cursor: pointer;
   }
   
@@ -65,7 +65,7 @@ form {
     content: "\f002";
     font-family: FontAwesome;
     font-size: 16px;
-    color: #6a983c70;
+    color: #6A983C;
   }
   
   .select_product{
@@ -93,12 +93,12 @@ form {
     content: "\f007";
     font-family: FontAwesome;
     font-size: 16px;
-    color: #6a983c70;
+    color: #6A983C;
   }
   
   .basket::before {
     content: "\f291";
     font-family: FontAwesome;
     font-size: 16px;
-    color: #6a983c70;
+    color: #6A983C;
   }
