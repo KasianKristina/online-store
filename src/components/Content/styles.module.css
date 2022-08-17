@@ -106,5 +106,5 @@
 
 .best_selling_products {
     display: flex;
-    flex-direction: row;
+    margin-bottom: 100px;
 }
