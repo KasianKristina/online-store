@@ -1,5 +1,5 @@
 import styles from './styles.module.css'
-import photo from '../../assets/person1.jpg'
+import photo from '../../../assets/person1.jpg'
 
 export const Comment = () => {
     return (
@@ -10,7 +10,7 @@ export const Comment = () => {
             <div className={styles.name}>
                 Name and Surname
             </div>
-            <img src={photo}></img>
+            <img className={styles.photo} src={photo} width="50px" height="50px"></img>
         </div>
     )
 }

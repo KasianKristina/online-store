@@ -1,0 +1,43 @@
+.carousel {
+    max-width: 1150px;
+    position: relative;
+    display: flex;
+    justify-content: flex-start;
+}
+
+.carousel_hider {
+    overflow: hidden;
+}
+
+.carousel_list {
+    list-style-type: none;
+    display: flex;
+    justify-content: space-between;
+    width: auto;
+    margin: 40px;
+    padding: 0;
+}
+
+.arrow_next, .arrow_prev{
+    width: 36px;
+    height: 36px;
+    position: absolute;
+    border: none;
+    background-color: #ffffff;
+    margin: 20px;
+    margin-left: auto;
+    cursor: pointer;
+    display: block;
+}
+
+.arrow_prev::before {
+    content: "\f137";
+    font-family: FontAwesome;
+    font-size: 17px;
+}
+
+.arrow_next::before {
+    content: "\f138";
+    font-family: FontAwesome;
+    font-size: 17px;
+}

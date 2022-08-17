@@ -1,0 +1,28 @@
+.comment {
+    width: 369px;
+    height: 198px;
+    border: 1px solid #f1f1f1;
+    border-radius: 12px;
+    display: flex;
+    flex-direction: column;
+    flex: 0 0 auto;
+    align-items: center;
+    padding: 24px 32px;
+}
+
+.text {
+    width: 305px;
+    height: 92px;
+    font-size: 15px;
+    font-weight: 500;
+}
+
+.name {
+    font-size: 12px;
+    font-weight: 600;
+    color: #A9A9A9;;
+}
+
+.photo {
+    border-radius: 25px;
+}

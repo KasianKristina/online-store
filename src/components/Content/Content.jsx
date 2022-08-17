@@ -3,6 +3,7 @@ import banner_1 from '../../assets/banner_1.jpg'
 import banner_2 from '../../assets/banner_2.jpg'
 import {Product} from '../Product/Product'
 import classnames from 'classnames'
+import SimpleSlider from '../Comments/SimpleSlider'
 
 export const Content = () => {
     return (
@@ -52,6 +53,10 @@ export const Content = () => {
             <Product />
             <Product />
 
+        </div>
+
+        <div> 
+            <SimpleSlider />
         </div>
     </div>
     )
