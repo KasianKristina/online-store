@@ -1,7 +1,11 @@
 import styles from './styles.module.css'
 import classnames from 'classnames'
+import {Modal} from '../../Modal/Modal'
+import { useState } from "react"
+import { Authorization } from '../../Authorization/Authorization'
 
 export const Navigation = () => {
+    const [open, setOpen] = useState(false);
     return (
         <>
         <div className={styles.line}></div>
@@ -27,7 +31,8 @@ export const Navigation = () => {
             
 
             <div className={classnames(styles.pictures, styles.nav)}>
-                <button className={styles.person}></button>
+                <button className={styles.person} onClick={() => setOpen(true)}></button>
+                <Modal open={open} onClose={() => setOpen(false)}><Authorization /></Modal>
                 <button className={styles.basket}></button>
             </div>
 

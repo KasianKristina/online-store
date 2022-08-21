@@ -1,0 +1,34 @@
+.modal_background {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    overflow: hidden;
+    background: rgba(0, 0, 0, 0.25);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.modal_cart {
+    background: #ffffff;
+    padding: 25px;
+    border: 2px solid #D1D1D1;
+    border-radius: 12px;
+}
+
+.modal_close {
+    width: 20px;
+    height: 20px;
+    cursor: pointer;
+    float: right;
+}
+
+.modal_close::after {
+    content: "\f00d";
+    font-family: FontAwesome;
+    font-size: 20px;
+    color: #6A983C;
+}
