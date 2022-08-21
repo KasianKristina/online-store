@@ -1,6 +1,6 @@
 .auth {
-    width: 376px;
-    height: 526px;
+    width: 326px;
+    height: 456px;
 }
 
 .auth_header {
@@ -14,6 +14,7 @@
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+    align-items: center;
 }
 
 .auth_form_element {
@@ -26,16 +27,16 @@
     border: 2px solid #D1D1D1;
 }
 
-.auth_form_input {
-    
-}
-
 .auth_form_enter {
     background-color: #6A983C;
+    color: #151515;
+    font-size: 17px;
+    font-weight: 600;
 }
 
 .auth_form_apple {
     background-color: #D1D1D1;
+    color: #151515;
 }
 
 .auth_form_apple::after {
@@ -45,18 +46,34 @@
     margin-left: 10px;
 }
 
-.auth_form_line{
-    text-align:center;
-    border-bottom:1px solid #6A983C;
-    vertical-align: middle;
+.auth_form_line {
+    overflow: hidden;
+    color: #D1D1D1;
+    font-size: 14px;
 }
 
+.auth_form_line:before, 
+.auth_form_line::after {
+    content: '';
+    display: inline-block;
+    vertical-align: middle;
+    width: 100%;
+    height: 2px;
+    background: #D1D1D1;
+    border: solid #FFF;
+	border-width: 0px 60px;
+}
 
+.auth_form_line::after {
+    margin-right: -100%;
+}
 
-.auth_form_line_text{
-    font-size:24px;
-    display:inline-block;
-    padding:0 5px 5px;
-    margin-bottom: -12px;
-    color:#6A983C;
+.auth_form_line::before {
+    margin-left: -100%;
+}
+
+.auth_form_mail {
+    text-decoration: none;
+    color: #6A983C;
+    font-size: 13px;
 }

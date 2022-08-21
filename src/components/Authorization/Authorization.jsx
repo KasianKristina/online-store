@@ -9,11 +9,7 @@ export const Authorization = () => {
                 <input className={classnames(styles.auth_form_input, styles.auth_form_element)} placeholder='Login'></input>
                 <input className={classnames(styles.auth_form_input, styles.auth_form_element)} placeholder='Password'></input>
                 <button className={classnames(styles.auth_form_enter, styles.auth_form_element)}>Sign in</button>
-                <div className={styles.auth_form_line}>
-                    <div className={styles.auth_form_line_bold}>
-                        <div className={styles.auth_form_line_text}>or</div>
-                    </div>
-                </div>
+                <div className={styles.auth_form_line}>or</div>
                 <button className={classnames(styles.auth_form_apple, styles.auth_form_element)}>Sign in with Apple</button>
                 <a href="#" className={styles.auth_form_mail}>Sign in with mail</a>
             </div>
