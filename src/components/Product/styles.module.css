@@ -54,7 +54,7 @@
     height: 36px;
     border: none;
     background-color: #ffffff;
-    color: #f21d1d;
+    color: #6A983C;
     margin-left: auto;
     cursor: pointer;
 }
@@ -63,4 +63,8 @@
     content: "\f004";
     font-family: FontAwesome;
     font-size: 17px;
-  }
+}
+
+.like:hover {
+    color:#f21d1d;
+}

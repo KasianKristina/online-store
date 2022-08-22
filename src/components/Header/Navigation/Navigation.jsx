@@ -34,6 +34,7 @@ export const Navigation = () => {
                 <button className={styles.person} onClick={() => setOpen(true)}></button>
                 <Modal open={open} onClose={() => setOpen(false)}><Authorization /></Modal>
                 <button className={styles.basket}></button>
+                <button className={styles.like}></button>
             </div>
 
         </div>
