@@ -4,17 +4,6 @@ import "slick-carousel/slick/slick-theme.css";
 import React, { Component } from "react";
 import Slider from "react-slick";
 
-function Arrow(props) {
-  const { className, style, onClick } = props;
-  return (
-    <div
-      className={className}
-      style={{ ...style, display: "block", margin: "0px 30px"}}
-      onClick={onClick}
-    />
-  );
-}
-
 export default class SimpleSlider extends Component {
   render() {
     const settings = {
@@ -24,11 +13,9 @@ export default class SimpleSlider extends Component {
       slidesToShow: 3,
       slidesToScroll: 1,
       autoplay: false,
-      nextArrow: <Arrow />,
-      prevArrow: <Arrow />,
       className: "center",
       centerMode: true,
-      centerPadding: "70px"
+      centerPadding: "75px"
     };
     return (
       <Slider {...settings}>

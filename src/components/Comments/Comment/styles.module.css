@@ -5,9 +5,8 @@
     flex-direction: column;
     align-items: center;
     padding: 24px 32px;
-    border: 2px solid #6A983C;
+    border: 2px solid #F1F1F1;
     border-radius: 12px;
-    background-color: #6a983cb5;
 }
 
 .text {
@@ -21,7 +20,7 @@
 .name {
     font-size: 12px;
     font-weight: 600;
-    color: #151515;
+    color: #A9A9A9;
 }
 
 .photo {
