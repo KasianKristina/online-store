@@ -2,6 +2,7 @@ import styles from './styles.module.css'
 import banner_1 from '../../assets/banner_1.jpg'
 import banner_2 from '../../assets/banner_2.jpg'
 import {Product} from '../Product/Product'
+import {Blog} from '../Blog/Blog'
 import classnames from 'classnames'
 import SimpleSlider from '../Comments/SimpleSlider'
 
@@ -58,6 +59,8 @@ export const Content = () => {
         <div> 
             <SimpleSlider />
         </div>
+
+        <Blog />
     </div>
     )
 }
